@@ -1,8 +1,8 @@
 // function 1
-let a = 10;
-let inc = (x) => ++x;
-let b = inc(a);
-console.log({a, b});
+let a = 10
+let inc = (x) => ++x
+let b = inc(a)
+console.log({a, b})
 // function 2
 const ns = {
     n1 : "a",
