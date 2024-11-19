@@ -7,7 +7,6 @@ greeting(name)
 
 // 4
 console.log("----4----")
-AbortController
 const range = (start, end) => {
     let arr = []
     for (let i = start; i <= end; i++) {
