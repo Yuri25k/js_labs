@@ -15,7 +15,7 @@ console.log(array)
 
 // 3
 const unique = (array) => {
-    c = []
+    let c = []
     for (i of array){
         if (!c.includes(i)){
             c.push(i)
