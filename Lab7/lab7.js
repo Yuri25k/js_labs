@@ -24,8 +24,8 @@ const unique = (array) => {
     return c
 }
 
-const result3 = unique([2, 1, 1, 3, 2]);
-console.log(result3);
+const result3 = unique([2, 1, 1, 3, 2])
+console.log(result3)
 
 // 4
 const difference = (array1, array2) => array1.filter((i) => !array2.includes(i))
