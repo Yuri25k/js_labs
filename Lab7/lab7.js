@@ -1,7 +1,7 @@
 // 1, 2 - Працює як і для 1 так і багатьох елементів
 const removeElements = (array, ...args) => {
     let i = 0
-    len = array.length
+    const len = array.length
     for (let j = 0; j < len; j++){
         if (args.includes(array[i])){
             array.splice(i, 1)
